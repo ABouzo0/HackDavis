@@ -1,0 +1,179 @@
+{
+  "users": {
+    "972a8b3c-04ef-41ed-a4a4-d14226f10af6": {
+      "id": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "email": "donor@rescueroute.demo",
+      "passwordHash": "$2b$10$7z2gkuOsYvopVRaSVaMS1.IuWsoG/SHcYRqUuqfCUqFIZ72TwGPlW",
+      "name": "Campus Kitchen",
+      "phone": "5305550100",
+      "role": "donor",
+      "organizationName": "Campus Dining",
+      "locationLabel": "1 Shields Ave, Davis, CA",
+      "coordinates": {
+        "lat": 38.554899999999996,
+        "lng": -121.7405
+      },
+      "businessType": "Dining hall",
+      "typicalFoodCategories": [
+        "prepared_meals",
+        "produce"
+      ],
+      "pickupInstructions": "Ring the loading dock bell.",
+      "reputationScore": 92,
+      "completedDonations": 34,
+      "canceledDonations": 1,
+      "createdAt": "2026-05-09T20:55:48.994Z",
+      "updatedAt": "2026-05-09T20:55:48.995Z"
+    },
+    "010b01f3-4998-42f0-92f2-f49ded3c8b45": {
+      "id": "010b01f3-4998-42f0-92f2-f49ded3c8b45",
+      "email": "shelter@rescueroute.demo",
+      "passwordHash": "$2b$10$7z2gkuOsYvopVRaSVaMS1.IuWsoG/SHcYRqUuqfCUqFIZ72TwGPlW",
+      "name": "River Community Center",
+      "phone": "5305550200",
+      "role": "shelter",
+      "organizationName": "River Community Center",
+      "locationLabel": "620 Pole Line Rd, Davis, CA",
+      "coordinates": {
+        "lat": 38.5449,
+        "lng": -121.7205
+      },
+      "storageCapacityMeals": 200,
+      "dietaryRestrictions": [],
+      "dailyMealDemand": 120,
+      "acceptedFoodCategories": [
+        "prepared_meals",
+        "produce",
+        "packaged_goods",
+        "mixed"
+      ],
+      "operatingHours": "8am–8pm daily",
+      "peopleServedEstimate": 85,
+      "historicalMealsRequested": 940,
+      "historicalMealsReceived": 820,
+      "createdAt": "2026-05-09T20:55:48.995Z",
+      "updatedAt": "2026-05-09T20:55:48.995Z"
+    },
+    "c07e46ce-28c8-442c-9e3c-d425a30e8a2f": {
+      "id": "c07e46ce-28c8-442c-9e3c-d425a30e8a2f",
+      "email": "driver@rescueroute.demo",
+      "passwordHash": "$2b$10$7z2gkuOsYvopVRaSVaMS1.IuWsoG/SHcYRqUuqfCUqFIZ72TwGPlW",
+      "name": "Alex Volunteer",
+      "phone": "5305550300",
+      "role": "driver",
+      "organizationName": "",
+      "locationLabel": "Downtown Davis",
+      "coordinates": {
+        "lat": 38.536899999999996,
+        "lng": -121.7405
+      },
+      "vehicleType": "SUV",
+      "maxDistanceMiles": 15,
+      "availabilityNotes": "Weekday evenings",
+      "canRefrigerated": true,
+      "milesDriven": 142,
+      "deliveriesCompleted": 28,
+      "createdAt": "2026-05-09T20:55:48.995Z",
+      "updatedAt": "2026-05-09T20:55:48.995Z"
+    }
+  },
+  "donations": {
+    "05485c84-d0fa-4f8f-87ad-05b95e318438": {
+      "id": "05485c84-d0fa-4f8f-87ad-05b95e318438",
+      "donorId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "title": "Boxed lunches — surplus from event",
+      "foodCategory": "prepared_meals",
+      "quantityDescription": "40 boxed meals",
+      "estimatedMeals": 40,
+      "pickupAddress": "1 Shields Ave, Davis, CA",
+      "pickupCoordinates": {
+        "lat": 38.554899999999996,
+        "lng": -121.7405
+      },
+      "earliestPickup": "2026-05-09T20:25:48.995Z",
+      "latestPickup": "2026-05-09T21:40:48.995Z",
+      "expirationDeadline": "2026-05-09T23:55:48.995Z",
+      "storageType": "refrigerated",
+      "dietaryTags": [],
+      "allergenNotes": "Contains wheat; nuts possible in some boxes.",
+      "packagingStatus": "Sealed vendor packaging",
+      "instructions": "Use loading dock; ask for Casey.",
+      "status": "matched",
+      "createdAt": "2026-05-09T20:55:48.995Z",
+      "updatedAt": "2026-05-09T23:36:52.327Z",
+      "shelterId": "010b01f3-4998-42f0-92f2-f49ded3c8b45"
+    }
+  },
+  "shelterNeeds": {
+    "2324aff2-2650-4600-b5ad-db7836be8a61": {
+      "id": "2324aff2-2650-4600-b5ad-db7836be8a61",
+      "shelterId": "010b01f3-4998-42f0-92f2-f49ded3c8b45",
+      "needLevel": "medium",
+      "mealsNeeded": 80,
+      "acceptedFoodCategories": [
+        "prepared_meals",
+        "produce",
+        "packaged_goods"
+      ],
+      "dietaryRestrictions": [],
+      "storageCapacityAvailable": 120,
+      "latestAcceptableDelivery": "2026-05-10T02:55:00.000Z",
+      "notes": "Especially need prepared meals tonight.",
+      "updatedAt": "2026-05-10T01:25:01.834Z"
+    }
+  },
+  "sessions": {
+    "cf80dd35-398d-4822-9706-820ac541d2d7": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T21:01:24.808Z"
+    },
+    "2d1c53f6-f6e7-49e0-92e3-f9315392064e": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T21:06:48.700Z"
+    },
+    "61706cf6-c85b-4d2a-846f-ee2b28bdfb46": {
+      "userId": "010b01f3-4998-42f0-92f2-f49ded3c8b45",
+      "expiresAt": "2026-05-12T22:26:36.827Z"
+    },
+    "a63685a1-0f2e-4246-b6c2-93965ed0aa31": {
+      "userId": "c07e46ce-28c8-442c-9e3c-d425a30e8a2f",
+      "expiresAt": "2026-05-12T22:27:13.342Z"
+    },
+    "801b1351-086d-405d-8d43-b7c999fa6138": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T23:23:50.594Z"
+    },
+    "aeb64f9a-ed5b-42d4-b7d1-31c32cd6c579": {
+      "userId": "010b01f3-4998-42f0-92f2-f49ded3c8b45",
+      "expiresAt": "2026-05-12T23:24:04.420Z"
+    },
+    "5bbffb2e-5dbe-41d2-9804-a9808fd7912b": {
+      "userId": "c07e46ce-28c8-442c-9e3c-d425a30e8a2f",
+      "expiresAt": "2026-05-12T23:24:19.472Z"
+    },
+    "3401acdd-4b5d-4dfa-983a-4fa453dbda83": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T23:24:31.142Z"
+    },
+    "6d28fa73-1505-45fd-9e56-f34ea40ff3bf": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T23:24:52.792Z"
+    },
+    "c24e8919-d507-4b22-b8af-84fcbd6a3209": {
+      "userId": "c07e46ce-28c8-442c-9e3c-d425a30e8a2f",
+      "expiresAt": "2026-05-12T23:24:58.334Z"
+    },
+    "a609d3a7-33f4-4845-b35d-cf24b9cbe03c": {
+      "userId": "010b01f3-4998-42f0-92f2-f49ded3c8b45",
+      "expiresAt": "2026-05-12T23:25:13.199Z"
+    },
+    "2b84f3df-6ed6-40ab-a558-1558a3d4c0d7": {
+      "userId": "972a8b3c-04ef-41ed-a4a4-d14226f10af6",
+      "expiresAt": "2026-05-12T23:25:30.516Z"
+    },
+    "a0a8618c-c3cf-40b1-bcb6-0e85ba8c0479": {
+      "userId": "c07e46ce-28c8-442c-9e3c-d425a30e8a2f",
+      "expiresAt": "2026-05-13T15:39:41.855Z"
+    }
+  }
+}
